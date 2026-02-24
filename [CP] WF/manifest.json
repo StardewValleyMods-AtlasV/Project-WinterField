@@ -1,0 +1,21 @@
+﻿{
+	"$schema": "https://smapi.io/schemas/manifest.json",
+	"Name": "Project WinterField",
+	"Author": "AtlasV",
+	"Version": "1.0.0",
+	"Description": "A whole ass always snowy expansion",
+	"UniqueID": "AtlasV.ProjectWinterField",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+    "AtlasV_Metadata": {
+        "Status": "Unreleased",
+        "Reason": "",
+        "Priority": "2", // 0=Abandoned, 1=Low, 2=Medium, 3=High, 4=Priority
+        "Aim": "I haven't seen an always winter expansion so I wanted to go about making one",
+        "ToDo": [
+            "Finish west map",
+            "fkn everything else",
+        ]
+    }
+}
