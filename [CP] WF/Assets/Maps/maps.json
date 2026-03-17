@@ -1,0 +1,23 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "{{ModId}}_TemplateWinterField": {
+                    "DisplayName": "TemplateWinterField",
+                    "DefaultArrivalTile": "10, 18",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_TemplateWinterField"
+                    }
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_TemplateWinterField",
+            "FromFile": "Assets/Maps/TemplateWinterField.tmx"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+	"$schema": "https://smapi.io/schemas/content-patcher.json",
+	"Format": "2.9.0",
+	"ConfigSchema": {
+		"config1": {
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"config2": {
+			"AllowValues": "red, green, blue",
+			"Default": "red"
+		}
+	},
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "Assets/Maps/maps.json"
+		}
+	]
+}
